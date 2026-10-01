@@ -1,0 +1,2 @@
+# Cloudflare Pages resolves clean/extensionless URLs and slug/index.html natively.
+# Intentionally empty of rules, do not add 200/301 rules here (see site-build-qa Section 4).
