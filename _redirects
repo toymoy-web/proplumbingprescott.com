@@ -1,2 +1,4 @@
 # Cloudflare Pages resolves clean/extensionless URLs and slug/index.html natively.
-# Intentionally empty of rules, do not add 200/301 rules here (see site-build-qa Section 4).
+# Only legacy-path redirects belong here (see site-build-qa Section 4). No 200 rewrites.
+# Retired location page: Prescott Lakes is a neighborhood inside Prescott, covered on the home page and /areas/.
+/areas/prescott-lakes/ /areas/ 301
