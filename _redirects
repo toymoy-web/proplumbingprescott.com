@@ -2,3 +2,34 @@
 # Only legacy-path redirects belong here (see site-build-qa Section 4). No 200 rewrites.
 # Retired location page: Prescott Lakes is a neighborhood inside Prescott, covered on the home page and /areas/.
 /areas/prescott-lakes/ /areas/ 301
+# Renamed blog posts (city added to slug)
+/blog/arizona-monsoon-season-and-your-drains/ /blog/prescott-az-monsoon-season-drain-problems/ 301
+/blog/arizona-monsoon-season-and-your-drains /blog/prescott-az-monsoon-season-drain-problems/ 301
+/blog/buying-an-older-prescott-home-plumbing-checklist/ /blog/buying-an-older-prescott-az-home-plumbing-checklist/ 301
+/blog/buying-an-older-prescott-home-plumbing-checklist /blog/buying-an-older-prescott-az-home-plumbing-checklist/ 301
+/blog/hard-water-effects-on-plumbing/ /blog/hard-water-effects-on-prescott-az-plumbing/ 301
+/blog/hard-water-effects-on-plumbing /blog/hard-water-effects-on-prescott-az-plumbing/ 301
+/blog/hydro-jetting-vs-snaking-which-clears-a-drain/ /blog/hydro-jetting-vs-snaking-prescott-az-drains/ 301
+/blog/hydro-jetting-vs-snaking-which-clears-a-drain /blog/hydro-jetting-vs-snaking-prescott-az-drains/ 301
+/blog/private-well-systems-what-to-know/ /blog/private-well-systems-prescott-chino-valley-az/ 301
+/blog/private-well-systems-what-to-know /blog/private-well-systems-prescott-chino-valley-az/ 301
+/blog/reading-your-water-meter-for-hidden-leaks/ /blog/reading-your-prescott-az-water-meter-for-leaks/ 301
+/blog/reading-your-water-meter-for-hidden-leaks /blog/reading-your-prescott-az-water-meter-for-leaks/ 301
+/blog/septic-tank-maintenance-schedule-yavapai-county/ /blog/septic-tank-maintenance-schedule-prescott-yavapai-county-az/ 301
+/blog/septic-tank-maintenance-schedule-yavapai-county /blog/septic-tank-maintenance-schedule-prescott-yavapai-county-az/ 301
+/blog/signs-your-prescott-home-has-galvanized-pipes/ /blog/signs-prescott-az-home-has-galvanized-pipes/ 301
+/blog/signs-your-prescott-home-has-galvanized-pipes /blog/signs-prescott-az-home-has-galvanized-pipes/ 301
+/blog/tankless-vs-tank-water-heaters-at-elevation/ /blog/tankless-vs-tank-water-heaters-prescott-az-elevation/ 301
+/blog/tankless-vs-tank-water-heaters-at-elevation /blog/tankless-vs-tank-water-heaters-prescott-az-elevation/ 301
+/blog/warning-signs-of-a-slab-leak-in-new-construction/ /blog/slab-leak-warning-signs-newer-prescott-az-homes/ 301
+/blog/warning-signs-of-a-slab-leak-in-new-construction /blog/slab-leak-warning-signs-newer-prescott-az-homes/ 301
+/blog/water-heater-sizing-at-elevation/ /blog/water-heater-sizing-prescott-az-elevation/ 301
+/blog/water-heater-sizing-at-elevation /blog/water-heater-sizing-prescott-az-elevation/ 301
+/blog/what-drives-sewer-line-repair-costs/ /blog/sewer-line-repair-costs-prescott-az/ 301
+/blog/what-drives-sewer-line-repair-costs /blog/sewer-line-repair-costs-prescott-az/ 301
+/blog/what-to-do-before-a-plumber-arrives-for-a-burst-pipe/ /blog/before-plumber-arrives-burst-pipe-prescott-az/ 301
+/blog/what-to-do-before-a-plumber-arrives-for-a-burst-pipe /blog/before-plumber-arrives-burst-pipe-prescott-az/ 301
+/blog/why-does-my-toilet-keep-running/ /blog/why-does-my-toilet-keep-running-prescott-az/ 301
+/blog/why-does-my-toilet-keep-running /blog/why-does-my-toilet-keep-running-prescott-az/ 301
+/blog/winterizing-pipes-before-a-prescott-freeze/ /blog/winterizing-pipes-before-a-prescott-az-freeze/ 301
+/blog/winterizing-pipes-before-a-prescott-freeze /blog/winterizing-pipes-before-a-prescott-az-freeze/ 301

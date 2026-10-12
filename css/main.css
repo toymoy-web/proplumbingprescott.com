@@ -10,7 +10,6 @@
   --trans:.2s ease;
 }
 *{margin:0;padding:0;box-sizing:border-box}
-html,body{overflow-x:hidden}
 html{scroll-padding-top:112px}
 body{font-family:var(--font-body);color:var(--text);background:#fff;line-height:1.6;text-align:left}
 h1,h2,h3,h4{font-family:var(--font-head);text-transform:uppercase;letter-spacing:.02em;line-height:1.08}
@@ -70,7 +69,7 @@ nav#site-nav{background:#fff;border-bottom:3px solid var(--navy);position:sticky
 
 /* ===== Hero ===== */
 .hero{background:linear-gradient(120deg,var(--navy) 55%,var(--navy2));color:#fff;padding:56px 0}
-.hero.hero-photo{background-image:linear-gradient(120deg,rgba(11,27,43,.93) 40%,rgba(18,39,64,.82)),url('/img/pages/homepage-hero.jpg');background-size:cover;background-position:center}
+.hero.hero-photo{background-image:none}
 .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center}
 .eyebrow{color:var(--orange);font-family:var(--font-head);font-weight:700;font-size:16px;letter-spacing:.12em}
 .hero h1{font-size:clamp(2rem,4.5vw,3.1rem);margin:12px 0 16px}
@@ -256,3 +255,40 @@ footer p{color:var(--steel);font-size:13.5px;max-width:none}
 /* ===== neighborhood cards: spacing after intro text, readable inline links ===== */
 .sec p+.cards{margin-top:18px}
 .card p a{text-transform:none;letter-spacing:0;font-size:inherit;font-weight:600;text-decoration:underline}
+
+/* ===== v11: hero backgrounds, rhythm, sticky sidecard ===== */
+.pagehead.has-hero,.hero.has-hero{position:relative;isolation:isolate;overflow:hidden;background:var(--navy)}
+.pagehead.has-hero{padding:72px 0 64px}
+.has-hero .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.has-hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(105deg,rgba(7,19,32,.93) 30%,rgba(11,27,43,.74) 70%,rgba(11,27,43,.58))}
+.hero.hero-photo.has-hero{background-image:none}
+.has-hero .wrap{position:relative}
+.has-hero p,.has-hero .crumb,.has-hero .crumb a,.has-hero .zips-label{color:#E4EDF5}
+.has-hero .crumb a:hover{color:var(--orange)}
+.has-hero .byline{font-size:14px}
+body{overflow-x:clip}
+main p+p{margin-top:14px}
+main h2+p,main h3+p,main h2+.cards,main h2+.faq{margin-top:14px}
+main h2{margin-bottom:0}
+main article>h2,.sec article h2{margin-top:30px}
+main article>h2:first-child{margin-top:0}
+body{line-height:1.7}
+.sec article p,.sec .wrap>div>p{font-size:16.5px;line-height:1.7}
+.twocol>article{min-width:0}
+.sidecard{position:sticky;top:92px;align-self:start}
+.sidecard .kicker{display:inline-block;background:var(--orange);color:#fff;font-family:var(--font-head);font-weight:800;font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;padding:5px 11px;border-radius:100px;margin-bottom:12px}
+.sidecard .svc-link{display:block;margin-top:14px;font-weight:700;font-size:14px;color:#fff;text-decoration:underline;text-decoration-color:var(--orange);text-underline-offset:3px}
+.sidecard .svc-link:hover{color:var(--orange)}
+.localnote{background:var(--bg3);border:1px solid var(--bline);border-left:4px solid var(--orange);border-radius:8px;padding:24px 26px;margin:30px 0}
+.localnote h2{margin-top:0!important;font-size:clamp(1.3rem,2.4vw,1.8rem)}
+.localnote p{font-size:16px}
+.localnote .src{font-size:13.5px;color:var(--text-muted)}
+.localnote .src a{color:var(--navy);font-weight:600}
+.callintel{background:#fff;border:1px solid var(--bline);border-radius:8px;padding:24px 26px;margin:30px 0;box-shadow:var(--shadow)}
+.callintel h2{margin-top:0!important;font-size:clamp(1.3rem,2.4vw,1.8rem)}
+.emerg{background:var(--navy);color:#fff;border-radius:8px;padding:26px 28px;margin:30px 0}
+.emerg h2{margin-top:0!important;color:#fff;font-size:clamp(1.3rem,2.4vw,1.8rem)}
+.emerg p{color:#E4EDF5}
+.emerg a{color:var(--orange);font-weight:700}
+.emerg ul{margin:12px 0 0 20px;color:#E4EDF5}
+.emerg li{margin-top:6px}
