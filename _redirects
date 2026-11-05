@@ -1,7 +1,6 @@
 # Cloudflare Pages resolves clean/extensionless URLs and slug/index.html natively.
 # Only legacy-path redirects belong here (see site-build-qa Section 4). No 200 rewrites.
-# Retired location page: Prescott Lakes is a neighborhood inside Prescott, covered on the home page and /areas/.
-/areas/prescott-lakes/ /areas/ 301
+# Prescott Lakes (/areas/prescott-lakes/) was previously retired with a 301 to /areas/. Nov 2026: restored as a neighborhood page, so the redirect was removed.
 # Renamed blog posts (city added to slug)
 /blog/arizona-monsoon-season-and-your-drains/ /blog/prescott-az-monsoon-season-drain-problems/ 301
 /blog/arizona-monsoon-season-and-your-drains /blog/prescott-az-monsoon-season-drain-problems/ 301
